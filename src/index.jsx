@@ -19,7 +19,6 @@ root.render(
             className="canvas"
         >
             <XR>
-                <Controllers />
                 <Experience />
             </XR>
         </Canvas>

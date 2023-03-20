@@ -17,16 +17,16 @@ export default function Experience()
         <directionalLight position={ [ 1, 2, 3 ] } intensity={ 1.5 } />
         <ambientLight intensity={ 0.5 } />
 
-        <Interactive onSelect={(e) => {
+        {/* <Interactive onSelect={(e) => {
             setColor("green")
-        }}>
+        }}> */}
             <mesh position-x={ - 2 } onClick={(e) => {
                 setColor("green")
             }}>
                 <sphereGeometry />
                 <meshStandardMaterial color="orange" />
             </mesh>
-        </Interactive>
+        {/* </Interactive> */}
 
         <mesh position-x={ 2 } scale={ 1.5 } >
             <boxGeometry />
